@@ -1,0 +1,6 @@
+# clangd (VS Code kod analizi) ayarlari.
+# Varsayilan: Appli'nin derleme bilgisi. ThirdParty/ ve Drivers/ altindaki
+# dosyalar da Appli ile derlendigi icin onlar da bunu kullanir.
+# FSBL/ klasoru icin FSBL/.clangd bu ayari ezer.
+CompileFlags:
+  CompilationDatabase: Appli/build
